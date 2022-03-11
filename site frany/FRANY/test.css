@@ -1,0 +1,202 @@
+li {
+    list-style:none !important;
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    nav ul {
+    padding:0;
+    margin:0;
+    }
+
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    }
+
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+    nav ul li:hover ul li {
+    float:none;
+    }
+      
+    
+nav{
+height: 60px;
+width: auto;
+background-color: green;
+padding-left: 300px;
+}
+ul {
+    list-style: none;
+}
+
+body{
+    background-color: rgb(221, 203, 208);
+    
+}
+
+.reference{
+	background: #c7d0d8;
+	display:flex;
+	margin-right: 100px;
+	width: 80%; 
+   margin-top: 100px;
+   font-size: 20px;
+}
+.tension{
+	/* height: 100px; */
+	display: block;
+}
+.reference div{
+	width: 50%;
+
+}
+.text{
+	margin-left: 100px;
+}
+.Nosservice{
+	background-color: #c7d0d8;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.Nosservice p{
+	color: #128c7e;
+}
+
+
+footer {
+    height: 200px;
+    color: #000;
+
+}
+
+.sup {
+    height: 70%;
+    background-color: rgb(9, 211, 76);
+}
+
+.inf {
+    height: 27px;
+    background-color: grey;
+}
+
+.icone {
+    position: relative;
+    bottom:10px ;
+}
+
+.nouscontacter h3  {
+    position: relative;
+    bottom: 1px;
+    left: 30px;
+    width: 15%;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.nouscontacter img {
+    position: relative;
+    left: 10px;
+    bottom:14px;
+    
+}
+
+.noussuivre h3 {
+    margin-right: 100x;
+    position: relative;
+    bottom: 115px;
+    right: -450px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.whatsapp, .email {
+    display: flex;
+    position: relative;
+    left: 410px;
+    bottom: 150px;
+}
+
+.noussuivre {
+    width: 20%;
+}
+
+.email img {
+    position: relative;
+    bottom: -15px;
+}
+
+.whatsapp img {
+    position: relative;
+    bottom: -15px;
+}
+
+.email {
+    position: relative;
+    bottom: 173px;
+}
+
+.position h3 {
+    margin-left: 800px;
+    position: relative;
+    bottom: 297px;
+    left: 100px;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.geolocalisation{
+    position: relative;
+    left: 910px;
+    bottom: 380px;
+    width: 200px;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: bold;
+    
+}
+.geolocalisation span {
+    margin-left: 15px;
+}
+
+.geoimg {
+    position: relative;
+    left: 880px;
+    bottom: 330px;
+}
+    
+.inf h3 {
+    position: relative;
+    left: 1000px;
+    color: #FFF;
+    font-weight: bold;
+    bottom: 40px;
+    width: 18%;
+}
+
+.inf img {
+    position: relative;
+    left: 970px;
+    bottom: -4px;
+}
